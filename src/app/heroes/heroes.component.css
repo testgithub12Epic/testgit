@@ -52,3 +52,11 @@
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
   }
+
+  .example-card {
+    max-width: 270px;
+    
+  }
+  div{
+    padding-bottom: 20px;
+  }

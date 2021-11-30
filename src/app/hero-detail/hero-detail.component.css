@@ -1,4 +1,15 @@
 /* HeroDetailComponent's private CSS styles */
+
+.destra{
+  border: 1px solid rgb(143, 150, 138);
+  margin-left: 700px;
+  
+}
+
+div{
+  padding-bottom: 30px; 
+}
+
 label {
     color: #435960;
     font-weight: bold;
@@ -21,4 +32,13 @@ label {
     background-color: #eee;
     color: #ccc;
     cursor: auto;
+  }
+
+  .example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
   }

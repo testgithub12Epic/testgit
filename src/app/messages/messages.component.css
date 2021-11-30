@@ -1,4 +1,4 @@
-h2 {
+.rosso{
     color: #A80000;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -16,3 +16,12 @@ h2 {
     color: white;
     background-color: #42545C;
   }
+
+  .example-card {
+    max-width: 400px;
+  }
+  
+  .bordo-grigio{
+    border: 1px solid rgb(143, 150, 138);
+  }
+  

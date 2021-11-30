@@ -17,8 +17,13 @@ export class HeroesComponent implements OnInit {
     this.getHeroes();
   }
 
-  getHeroes(): void {
+  /*getHeroes(): void {
     this.heroService.getLocalHeroes()
+    .subscribe(heroes => this.heroes = heroes);
+  }*/
+
+  getHeroes(): void {
+    this.heroService.getRemoteHeroes()
     .subscribe(heroes => this.heroes = heroes);
   }
 }

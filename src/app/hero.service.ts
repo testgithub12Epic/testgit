@@ -21,12 +21,13 @@ export class HeroService {
     ) { }
 
   getLocalHeroes(): Observable<Hero[]> {
+
     const heroes = of(HEROES);
     this.messageService.add('HeroService: fetched heroes');
     return heroes;
   }
 
-  ///////////
+  /////////// Per il server con proxy
   getRemoteHeroes(): Observable<Hero[]> {
     
     return this.http.get<Hero[]>(this.heroesUrl);
